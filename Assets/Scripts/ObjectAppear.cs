@@ -12,10 +12,15 @@ public class ObjectAppear : MonoBehaviour
 
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
 
         gameObject.GetComponent<Text>().enabled = true;
 
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        gameObject.GetComponent<Text>().enabled = false;
     }
 }
