@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PanelOpener : MonoBehaviour {
+public class PanelOpener : MonoBehaviour
+{
 
     public GameObject Panel;
     public void OpenPanel()
@@ -14,5 +15,4 @@ public class PanelOpener : MonoBehaviour {
             Panel.SetActive(!isActive);
         }
     }
-
 }
