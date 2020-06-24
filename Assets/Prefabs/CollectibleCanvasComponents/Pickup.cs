@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class Pickup : MonoBehaviour {
-
+public class Pickup : MonoBehaviour
+{
     private Inventory inventory;
     public GameObject itemButton;
 
@@ -12,21 +13,18 @@ public class Pickup : MonoBehaviour {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
-    private void OnTriggerEnter(Collider other) {
-
-        if (other.CompareTag("Player"))
-        {
+    void OnTriggerEnter(Collider other) {
+        
+        if (other.CompareTag("Player")) {
             for (int i = 0; i < inventory.slots.Length; i++)
             {
-                if (inventory.isFull[i] == false)
-                {
+                if (inventory.isFull[i] == false) {
                     inventory.isFull[i] = true;
-                    Instantiate(itemButton, inventory.slots[i].transform, false);
+                    Instantiate(itemButton, inventory.slots[i].transform);
                     Destroy(gameObject);
                     break;
                 }
             }
         }
-        
     }
 }
