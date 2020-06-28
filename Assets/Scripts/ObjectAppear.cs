@@ -19,8 +19,8 @@ public class ObjectAppear : MonoBehaviour
 
     }
 
-    void OnTriggerExit(Collider other)
-    {
-        gameObject.GetComponent<Text>().enabled = false;
-    }
+    //void OnTriggerExit(Collider other)
+    //{
+        //gameObject.GetComponent<Text>().enabled = false;
+    //}
 }

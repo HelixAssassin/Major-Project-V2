@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2 - InnerCastleLevel.unity
     guid: eb431ff67873c914db38b4817ee40c0a
+  - enabled: 1
+    path: Assets/Scenes/Level 3 - The Road.unity
+    guid: 0f27f3c27bb538747984f34d86e8d059
   m_configObjects: {}
