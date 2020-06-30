@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class EndGame : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
-        if (other.transform.tag == "EndGame")
+        if (other.transform.CompareTag("EndGame"))
         {
             SceneManager.LoadScene("Main Menu");
         }
