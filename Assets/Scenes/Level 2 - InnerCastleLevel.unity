@@ -7112,17 +7112,17 @@ PrefabInstance:
     - target: {fileID: 403056924035771703, guid: 88dc78dd9ed3789418597672ed525d38,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98
+      value: 43.8
       objectReference: {fileID: 0}
     - target: {fileID: 403056924035771703, guid: 88dc78dd9ed3789418597672ed525d38,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.6
+      value: -58.05
       objectReference: {fileID: 0}
     - target: {fileID: 403056924035771703, guid: 88dc78dd9ed3789418597672ed525d38,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -76.4
+      value: -277.63
       objectReference: {fileID: 0}
     - target: {fileID: 403056924035771703, guid: 88dc78dd9ed3789418597672ed525d38,
         type: 3}
@@ -12763,7 +12763,7 @@ GameObject:
   - component: {fileID: 1862470754}
   - component: {fileID: 1862470753}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: SceneSwitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12849,7 +12849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862470752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -83.83, y: 1.37, z: 72.98}
+  m_LocalPosition: {x: -105.97, y: 1.37, z: -93.13}
   m_LocalScale: {x: 6.76, y: 13.225201, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15203,7 +15203,7 @@ PrefabInstance:
     - target: {fileID: 7847663592215458937, guid: fe0faec8a642ef240bdb6d4959fdd8e9,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe0faec8a642ef240bdb6d4959fdd8e9, type: 3}
@@ -16493,11 +16493,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fucking hell. I don't get how we're all sick. I think that skinny bastard
-    put something in our water the other day. I knew he was up to something weird.
-    Half our army is sick. I don't think we're gonne be able to hold off the citizens.
-    Ungrateful bastards! We portect them and all because they don't have as much
-    gold they turn against us.
+  m_Text: Fucking hell. I don't get how we're all sick. I think something got into
+    our water. Half our army is sick. I don't think we're gonne be able to hold off
+    the citizens. Ungrateful bastards! We portect them and all because they don't
+    have as much gold they turn against us.
 --- !u!224 &2214076036913143370
 RectTransform:
   m_ObjectHideFlags: 0
